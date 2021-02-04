@@ -144,9 +144,15 @@ margin-right: 0px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin: auto;
-  /*background-image: url(../img/hero.png);
+  height: 600px;
+  max-width: 1600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero.png);
   background-repeat: no-repeat;
-  background-position: left top;*/
 }
 
 .hero-title {
@@ -174,7 +180,7 @@ margin-right: 0px;
 
 .feature::before {
   display: block;
-  content: '';
+  content: "";
   height: 120px;
   /*outline: 1px solid red;*/
   background-repeat: no-repeat;
@@ -184,19 +190,19 @@ margin-right: 0px;
   background-color: #f5f4fa;
 }
 .feature:nth-child(1)::before {
-  background-image: url(../img/antenna.png);
+  background-image: url(../img/antenna.svg);
 }
 
 .feature:nth-child(2)::before {
-  background-image: url(../img/clock.png);
+  background-image: url(../img/clock.svg);
 }
 
 .feature:nth-child(3)::before {
-  background-image: url(../img/diagram.png);
+  background-image: url(../img/diagram.svg);
 }
 
 .feature:nth-child(4)::before {
-  background-image: url(../img/astronaut.png);
+  background-image: url(../img/astronaut.svg);
 }
 
 .feature-list > .feature {
@@ -284,7 +290,8 @@ margin-right: 0px;
   text-align: center;
 }
 .teamcard {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 /* Examples */
 .section-examples {
