@@ -116,6 +116,30 @@ margin-right: 0px;
 .info .item + .item {
   margin-left: 50px;
 }
+
+.item2::before {
+  display: inline-block;
+  content: "";
+  height: 12px;
+  width: 16px;
+  /*outline: 1px solid red;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item2:nth-child(1)::before {
+  background-image: url(../img/envelope.svg);
+}
+
+.item2:nth-child(2)::before {
+  background-image: url(../img/smartphone.svg);
+}
+
+.info .item2:nth-child(1)::before {
+  background-image: url(../img/envelopeportfolio.svg);
+}
+
 .info .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -267,6 +291,19 @@ margin-right: 0px;
   margin-top: -30px;
   padding: 0;
 }
+
+/*.team-cards::after {
+  display: block;
+  content: "";
+  height: 44px;
+  outline: 1px solid red;
+  background-image: url(../img/instagram.svg), url(../img/twitter.svg),
+    url(../img/facebook.svg), url(../img/linkedin.svg);
+  background-position: ;
+  background-size: contain;
+  background-repeat: no-repeat;
+}*/
+
 .team > .team-cards {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
