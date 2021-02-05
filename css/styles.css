@@ -117,12 +117,12 @@ margin-right: 0px;
   margin-left: 50px;
 }
 
-.item2::before {
+/*(.item2::before {
   display: inline-block;
   content: "";
   height: 12px;
   width: 16px;
-  /*outline: 1px solid red;*/
+  /*outline: 1px solid red;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,9 +136,9 @@ margin-right: 0px;
   background-image: url(../img/smartphone.svg);
 }
 
-.info .item2:nth-child(1)::before {
+.info2 .item2:nth-child(1)::before {
   background-image: url(../img/envelopeportfolio.svg);
-}
+}*/
 
 .info .link {
   color: var(--primary-text-color);
@@ -177,6 +177,7 @@ margin-right: 0px;
     ),
     url(../img/hero.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -327,8 +328,10 @@ margin-right: 0px;
   text-align: center;
 }
 .teamcard {
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 /* Examples */
 .section-examples {
@@ -371,6 +374,7 @@ margin-right: 0px;
 }
 .card-content {
   padding: 20px 24px;
+  background-color: ;
 }
 
 /* Button */
@@ -497,4 +501,58 @@ margin-right: 0px;
 }*/
 .contacts-list .logo {
   margin-bottom: 20px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+
+}
+
+.social-link-list:not(:last-child){
+  margin-right: 10px;
+}
+
+
+.button-icon {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /*outline: 1px solid red;*/
+  justify-content:  center;
+  align-items: center;
+  
+}
+.button-icon:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+.icon-button {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;;
+}
+
+.button-icon:hover .icon-button {
+  fill: #ffffff;
+}
+
+.container-footer-adress {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 231px;;
+}
+.container-social-link {
+  margin-left: 70px;
+  padding: ;
+  text-align: center;
+}
+
+.container-social-link .icon-button {
+  fill: #ffffff;
 }
