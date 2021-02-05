@@ -542,7 +542,7 @@ margin-right: 0px;
 .icon-button {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .button-icon:hover .icon-button {
@@ -550,14 +550,16 @@ margin-right: 0px;
 }
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
 .container-footer-adress {
   text-align: left;
   margin-right: 70px;
 }
 .container-social-link {
-  text-align: left;
+  text-align: left bott;
   margin-right: 70px
+  
 }
 
 .container-social-link .icon-button {
@@ -598,7 +600,7 @@ margin-right: 0px;
  width: 170px;
  height: 90px;
  border-radius: 4%;
- border: 1px solid #AFB1B8;
+ border: 1px solid #afb1b8;
  /*outline: 1px solid red;*/
  justify-content:  center;
  align-items: center;
@@ -615,7 +617,7 @@ margin-right: 0px;
 .client {
   padding: 0;
   margin: 0;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 
